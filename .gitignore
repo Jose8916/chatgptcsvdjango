@@ -1,9 +1,147 @@
-### Django ###
 
-__pycache__/
-db.sqlite3
-db.sqlite3-journal
-media
+# Default ignored files
+.idea/workspace.xml
+syntax: glob
+build/
+dist/
+static/
+staticfiles/
+trytond_account_pe.egg-info/
+docs/install_manual/_build/
+docs/technical_manual/_build/
+docs/user_manual/_build/
 
-env/
+.Dockerfile
+.docker-compose.yml
+
+# Eclipse
+####################
+.settings/
+.project
+.pydevproject
+
+# Compiled python
+###################
+*.pyc
+*.pyo
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files #
+###################
+*.swp
+*.swo
+*.bak
+*~
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.idea
+*.css
+*.map
+*.scss
+*.js
+*.svg
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+.idea/*
+.vscode/*
+conf/config.ini
+logs/*.log
+public/*
+output/*.txt
+.environment
 .env
+.project
+.pydevproject
+.settings
+
+.idea/*
+.vscode/*
+db.sqlite3
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+*/*/*/__pycache__/
+
+*/*/__pycache__/
+
+*/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Media files #
+###############
+media/osinergmin_record
+media/receipts
+media/tightness_test
+media/internal_inspection
+media/internal_cleaning
+media/Soat_record
+media/party_pictures
+media/shipment_documents
+media/receipt_ballots
+media/checklists
+media/checklist_section_items/
+media/checklist_section_items_clean/
+media/non_compliance_liftings/
+media/non_compliance_liftings_clean/
+media/apk_checklist
+media/apk_boletas
+media/requirement_file/
+media/execution_file/
+media/file_tdr_contract/
+
+venv
+
+*/migrations/*.py
+
+# manage
+manage.py
